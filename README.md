@@ -1,7 +1,7 @@
 # SQL-Order-Lifecycle-Analytics
 SQL Order Lifecycle Analytics 
 
-** Overview**
+* Overview
 
 This project analyzes the full order lifecycle using SQL Server.
 
