@@ -1,6 +1,7 @@
 # SQL-Order-Lifecycle-Analytics
-SQL Order Lifecycle Analytics (Project 3)
-📖 Overview
+SQL Order Lifecycle Analytics 
+
+** Overview**
 
 This project analyzes the full order lifecycle using SQL Server.
 
@@ -8,7 +9,7 @@ It focuses on tracking order status progression, revenue contribution, cancellat
 
 All business logic was implemented using T-SQL in SQL Server.
 
-🎯 Business Objectives
+**Business Objectives**
 
 Monitor order lifecycle (Created → Confirmed → Delivered → Cancelled)
 
@@ -22,7 +23,7 @@ Identify cancelled orders and business loss
 
 Automate order creation via stored procedure
 
-🛠 Technical Skills Demonstrated
+ **Technical Skills Demonstrated**
 
 CRUD operations on SalesOrders
 
@@ -40,7 +41,7 @@ Business rule enforcement
 
 Performance aggregation logic
 
-🧠 Key SQL Highlights
+ **Key SQL Highlights**
 ✔ Latest 30 Orders with Retailer + Agent
 SELECT TOP 30
     S.OrderNumber,
@@ -83,7 +84,7 @@ BEGIN
     SELECT SCOPE_IDENTITY() AS NewOrderID;
 END;
 
-📊 Key Insights Generated
+** Key Insights Generated**
 
 Identified peak sales days
 
@@ -95,7 +96,7 @@ Quantified cancelled revenue
 
 Built reusable logic for order automation
 
-🧠 Business Impact
+** Business Impact**
 
 This project simulates:
 
